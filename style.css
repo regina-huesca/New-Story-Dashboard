@@ -1,0 +1,74 @@
+@import src('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+body{
+font-family:'Barlow', sans-serif;
+background-color: #fff;
+padding:0px;
+margin:0px;
+}
+
+h1,
+p {
+  margin: 0 0 1em 0;
+}
+
+h1 {
+  font-family: 'Barlow', sans-serif;
+  font-style: bold;
+  font-size: 48px;
+  letter-spacing: .05em;
+}
+
+p{
+  font-family:'Barlow', sans-serif;
+  font-style: normal;
+}
+
+.containerNav {
+  padding-left: 3%;
+  padding-right: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navbar1 {
+    position: fixed;
+    height: 64px;
+    background-color: #000000;
+}
+
+.smallLogo{
+  height: auto;
+  width: 12%;
+  margin: 21px 50px 21px 0px;
+}
+
+ul li
+{
+list-style-type:none;
+color:#F2F2F2;
+padding:10px;
+overflow: auto;
+cursor:pointer;
+}
+
+ul li:hover .linktitle
+{
+color:#6c6c6c;
+}
+
+ul li div
+{
+float:left;
+}
+
+.icon
+{
+padding:10px;
+}
+
+.linktitle
+{
+line-height: 35px;
+padding-left: 10px;
+}
