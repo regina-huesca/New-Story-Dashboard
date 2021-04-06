@@ -18,7 +18,7 @@
   }
 
   .box-sidebar {
-    background-color: #444;
+    background-color: #2D2A2B;
     color: #fff;
     grid-column: 1 / 2;
     grid-row: 2 / 4;
@@ -29,6 +29,7 @@
     color: #444;
     border-radius: 5px;
     padding: 20px;
+    box-shadow: 0px 26px 41px #DCDCDC;
   }
 
   .box-welcome {
@@ -40,7 +41,7 @@
   }
 
   .a{
-    background-color: #ccc;
+    background-color: #ebeaea;
     color: #444;
     grid-column: 2 / 3;
     grid-row: 3;
